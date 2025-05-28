@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>扫码显示</title>
+</head>
+<body style="text-align: center; font-family: Arial; background-color: #fff; margin-top: 100px;">
+  <div>
+    <h1 style="font-size: 60px; color: #e91e63;">V我50</h1>
+    <p style="font-size: 36px; color: #3f51b5;">VX：vwo50</p>
+    <p style="font-size: 24px; color: #555;">立即转账，限时优惠</p>
+    <p style="font-size: 18px; color: #888;">谢谢老板！</p>
+  </div>
+</body>
+</html>
