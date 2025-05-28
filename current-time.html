@@ -4,11 +4,14 @@
   <meta charset="UTF-8">
   <title>扫码时间</title>
   <script>
-    function showTime() {
+    function updateTime() {
       const now = new Date();
       document.getElementById("time").innerText = now.toLocaleString();
     }
-    window.onload = showTime;
+    window.onload = function () {
+      updateTime(); // 页面加载立即更新时间
+      setInterval(updateTime, 1000); // 每秒更新一次
+    };
   </script>
 </head>
 <body style="text-align: center; font-family: Arial;">
