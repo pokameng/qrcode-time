@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>扫码时间</title>
+  <script>
+    function showTime() {
+      const now = new Date();
+      document.getElementById("time").innerText = now.toLocaleString();
+    }
+    window.onload = showTime;
+  </script>
+</head>
+<body style="text-align: center; font-family: Arial;">
+  <h1>您扫码的时间是：</h1>
+  <p id="time" style="font-size: 30px; color: #333;"></p>
+</body>
+</html>
